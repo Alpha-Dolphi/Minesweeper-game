@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 function App() {
   const [value, setValue] = useState(18);
   const [mines, setMines] = useState([]);
-  // const[lost, setLost] = useState(false);
   const [clickState, setClickState] = useState(false);
 
   useEffect(() => {

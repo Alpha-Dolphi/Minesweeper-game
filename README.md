@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to a Minesweeper game 👋</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React version](https://img.shields.io/badge/React-v18.2.0-orange)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+> Minesweeper is a classic single-player puzzle game where the goal is to clear a minefield without detonating any mines. The game is played on a grid of squares, some of which contain mines.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Customizable game board size
+- Randomized mine placement for each game
+- Flagging system to mark potential mines
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Play
 
-### `npm test`
+1. The game begins with a grid of squares, some of which contain mines.
+2. The player must left-click on a square to reveal what's underneath. If the square contains a mine, the game is over.
+3. If the square does not contain a mine, a number is revealed indicating how many mines are in the adjacent squares.
+4. Using the numbers as clues, the player must deduce which squares contain mines and flag them using the right-click button.
+5. The game is won when all non-mine squares have been revealed, and lost when a mine is detonated.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Preview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✨ [Live Demo](https://unrivaled-begonia-77a9d0.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a preview of my project in action:
 
-### `npm run eject`
+![Screenshot of my project](https://lh3.googleusercontent.com/314pRd9ROys7lo5oVWT8A3iBrEiL_ZJneRfkrIjsOSoK1WqSDhgm-fn6kz1otnkGgmvPiZdDhTMGPutCwTJJyGgp_41SN_zYsYv30I0Snac13_NirlMS-eIZ6Rak7AImTyJsZKNuQS5PppvW9isShM0DcD4NfThqRIlRoeS5yDXkuVvfpJR5Von-NcuhZfQKj_JCEb4ty6c5GDx4HfUvjuBOwmq-K86Ex4WbxUwyPNrED3iZNHBYNvdEjr0_wCtTrwdv45Kl1sAJrlQOgKAWkZniT5POrhixbOdazRe3Z97JwwKp6_vYm1hgIjcuVpijTM-Lc3_TVi3JUraIqmXmgyH3Kk7LHqWwaNpSqXMMUmSMucTlnIJYV_cxsdsLHkogwNOPs-pjLqviwL6qXqrHxYD8zsLigty4HlZqKqhX73kp-3Ra8H8vbVE4gvEzZx2zXjVrPAbL1Z12OoHbym_lkuckA0vd42x7Vy8KoTjDdsogR0kVUNUFG0w3QWQl1bJW7JKSsPV6kjE_gdzuRGTvAGyi4OQgKr9ox0QTpnJfZWKqWsLw7D-P5yBObcovMv_oCNzCvOdo8ZCwEoU-HhCiSarM3PLFfuYG77dKqsY_8MS1dm6xzfck-8H8doTgitq0CPJfem1na3No1iusLEyV9Iry14FMft06nw4hQLa3NBkR4ulOSvkOUTPBKwVEY_FukJiQIaiN03n0oerjb7jXFHtOiOXKDGKjvbS6sbpl0Cr86EWaD46mVlzMwZisNqQFysRcuD5hkoKKwCnjRugNABP_o6L1O-figox_DzymYhtbrzf-FNCqs76m-UneoRejbOqJGShZa4CO6kVYbLXgULqnuCd5Aceuy1maTUWCQA75AIsxY73kYUQRfKbLqhcSDEjRiFJwuJP8dii5R7GqSXHbOm1wF3jHU0cAIqT1g9vO3Poi3PVjvJT8RCW3PSOkiDoAFr3Gfqc72MXp5tnc=w957-h780-s-no?authuser=0)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm run start
+```
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Bogdan**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Website: https://effulgent-brigadeiros-8b54e7.netlify.app/
+* Github: [@Alpha-Dolphi](https://github.com/Alpha-Dolphi)
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if this project helped you!

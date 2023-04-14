@@ -127,7 +127,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div className='smth'> */}
         <input
           id="range-input"
           type="range"

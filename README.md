@@ -28,7 +28,7 @@
 
 Here's a preview of my project in action:
 
-![Screenshot of my project](https://thumbnails-photos.amazon.com/v1/thumbnail/Wp5QR6axTImCpc04MC7R7A?viewBox=1144%2C933&ownerId=A3RH6BXWON9HXU)
+![Screenshot of my project](https://thumbnails-photos.amazon.com/v1/thumbnail/…4MC7R7A?viewBox=1144%2C933&ownerId=A3RH6BXWON9HXU)
 
 ## Install
 
